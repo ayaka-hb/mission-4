@@ -4,9 +4,10 @@ class SanctuaryGateway {
     // 【指示】下の1行を自分のプロパティ定義を追加せよ！
     public bool $sunStone = true;
     // 担当B: public bool $moonStone = true;
+    // 担当A: public bool $sunStone = true;
+    public bool $moonStone = true;
     public string $placeholderStone = "NONE"; // ←これは残す
-    // ==========================================
-
+    // =========================================
     public function unlock(): void {
         echo "=== 日輪の門 封印の間 ===\n";
         usleep(500000);
